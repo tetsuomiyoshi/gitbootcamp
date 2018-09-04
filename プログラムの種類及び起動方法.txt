@@ -1,0 +1,20 @@
+プログラムの種類及び起動方法
+
+プログラムの種類
+(1)animation1.py
+（一般）サイクロイドのアニメーション
+(2)animation2.py
+内サイクロイドのアニメーション
+(3)animation3.py
+外サイクロイドのアニメーション
+
+プログラムの起動方法
+(1)ターミナルを起動します。（ターミナルについては、Environment.txtを参照してください。）
+(2)>cd ~/cycloid で、cycloidフォルダーに移動します。
+（注）デスクトップに置いてある場合は、>cd ~/Desktop/cycloid になります。）
+(3)（一般）サイクロイドのアニメーションを行う場合、
+ >python animation1.py &
+内サイクロイドのアニメーションを行う場合、
+ >python animation2.py &
+外サイクロイドのアニメーションを行う場合、
+ >python animation3.py &
