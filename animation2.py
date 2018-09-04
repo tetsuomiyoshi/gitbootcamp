@@ -41,7 +41,8 @@ def plot():
             yield R*np.cos(theta), R*np.sin(theta), -theta
     """
     def gen():
-        for theta in np.linspace(0,2*np.pi,100):
+        #for theta in np.linspace(0,2*np.pi,100):
+        for theta in np.linspace(0, 2 * np.pi, 200):
             yield (value1+1)*R*np.cos(theta), (value1+1)*R*np.sin(theta), -(value1+1)*theta
 
 

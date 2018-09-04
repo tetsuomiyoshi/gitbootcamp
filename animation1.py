@@ -35,7 +35,8 @@ def plot():
             plt_show()
 
     def gen():
-        for theta in np.linspace(0,2*np.pi,100):
+        #for theta in np.linspace(0,2*np.pi,100):
+        for theta in np.linspace(0, 2 * np.pi, 200):
             yield R*(theta-np.sin(theta)), R*(1-np.cos(theta)), R*theta
 
     fig = plt.figure()

@@ -49,7 +49,8 @@ def plot():
             n=4
         else:
             n=2
-        for theta in np.linspace(0,n*np.pi,100):
+        #for theta in np.linspace(0,n*np.pi,100):
+        for theta in np.linspace(0, n * np.pi, 200):
             if value > 1:
                 yield (value1+1)*R*np.cos(theta), (value1+1)*R*np.sin(theta), ((value1+1)/value1)*theta
             else:
